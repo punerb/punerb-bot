@@ -3,7 +3,6 @@ punerb-bot
 
 bot for #punerb on freenode
 
-
 # Instructions for deploying on Heroku
 
 Clone the repo.
