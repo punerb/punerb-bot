@@ -45,3 +45,6 @@ module.exports = (robot) ->
 
   robot.hear /!backtrace/i, (msg) ->
     msg.send "Please show us the backtrace for that error you're getting in a Gist: http://gist.github.com"
+
+  robot.hear /!help/i, (msg) ->
+    msg.send "Just Ask, Don't Ask to Ask!"
