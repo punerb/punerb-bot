@@ -54,3 +54,6 @@ module.exports = (robot) ->
 
   robot.hear /!koans/i, (msg) ->
     msg.send "Walk the path to enlightenment with RubyKoans https://github.com/neo/ruby_koans"
+
+  robot.hear /!punerb/i, (msg) ->
+    msg.send "Pune Ruby community http://punerb.org"
