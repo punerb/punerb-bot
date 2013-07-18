@@ -57,3 +57,6 @@ module.exports = (robot) ->
 
   robot.hear /!punerb/i, (msg) ->
     msg.send "Pune Ruby community http://punerb.org"
+
+  robot.hear /!logs/i, (msg) ->
+    msg.send "http://bit.ly/punerb-logs"
