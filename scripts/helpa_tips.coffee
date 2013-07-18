@@ -48,3 +48,9 @@ module.exports = (robot) ->
 
   robot.hear /!help/i, (msg) ->
     msg.send "Just Ask, Don't Ask to Ask!"
+
+  robot.hear /!rubymonk/i, (msg) ->
+    msg.send "Learn Ruby by solving exercises at Rubymonk! http://rubymonk.com"
+
+  robot.hear /!koans/i, (msg) ->
+    msg.send "Walk the path to enlightenment with RubyKoans https://github.com/neo/ruby_koans"
