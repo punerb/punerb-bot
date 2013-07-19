@@ -33,7 +33,8 @@ module.exports = (robot) ->
 		message = msg.message
 		message.date = new Date
 
-    console.log message.user
+		# ignore topic and other messages
+		#return if typeof message.user.id == 'undefined'
 
 		db.save message, (err, res) ->
 			if err then console.error(err)
