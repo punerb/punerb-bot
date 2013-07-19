@@ -28,6 +28,7 @@
     "hubot":         "2.5.5",
     "hubot-scripts": "2.4.6",
     "cradle":        ">= 0.5.8"
+    "cheerio":       "0.7.0"
   },
 
   "engines": {
