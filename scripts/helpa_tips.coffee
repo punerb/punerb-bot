@@ -60,3 +60,6 @@ module.exports = (robot) ->
 
   robot.hear /!logs/i, (msg) ->
     msg.send "http://bit.ly/punerb-logs"
+
+  robot.hear /!repeat/i, (msg) ->
+    msg.send msg
