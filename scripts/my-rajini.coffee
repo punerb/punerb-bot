@@ -18,7 +18,7 @@ cheerio = require('cheerio')
 url = "http://rajinikanthfacts.com/"
 
 module.exports = (robot) ->
-  robot.respond /(?:mrajinikanth|mrajini)(?: me)? (.*)/i, (msg)->
+  robot.respond /(?:mrajinikanth|mrajini)(?: me)?(?: )?(.*)/i, (msg)->
     user = msg.match[1]
     msg.http(url)
       .get() (err, res, body) ->
